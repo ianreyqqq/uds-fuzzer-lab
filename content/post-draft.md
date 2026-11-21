@@ -21,7 +21,7 @@ That's how I approach my day job running autonomous vehicles at Nuro, too. Most 
 
 Everything ran on a simulated CAN bus. No real vehicles were harmed. 🏁
 
-Code + write-up: [GitHub link]
+Code + write-up: https://github.com/ianreyqqq/uds-fuzzer-lab
 
 #AutomotiveCybersecurity #CANbus #Fuzzing #ISO21434 #IanOnPace
 
@@ -37,7 +37,7 @@ Code + write-up: [GitHub link]
 
 ## Before posting checklist
 
-- [ ] Repo is public and the README renders
+- [x] Repo is public and the README renders
 - [ ] Don't name or imply a real automaker or Nuro systems (this is a simulator)
 - [ ] Check Nuro's social media / outside work policy before mentioning the job
 - [ ] Post Tue–Thu morning
