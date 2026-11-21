@@ -1,0 +1,46 @@
+{
+  "seed": 1337,
+  "cases": 5000,
+  "seconds": 18.9,
+  "stats": {
+    "sent": 4764,
+    "skipped_known": 236,
+    "positive": 643,
+    "negative": 4088,
+    "silent": 33
+  },
+  "findings": [
+    {
+      "type": "CRASH",
+      "service": "0x22",
+      "setup": [],
+      "request": "22 F1",
+      "response": null,
+      "detail": "no answer for 4.5s",
+      "first_case": 123,
+      "hits": 1
+    },
+    {
+      "type": "BYPASS",
+      "service": "0x27",
+      "setup": [
+        "10 03"
+      ],
+      "request": "27 02 00 00",
+      "response": "67 02",
+      "detail": "protected DID read returned: 62 F1 F0 53 45 43 52",
+      "first_case": 162,
+      "hits": 2
+    },
+    {
+      "type": "HANG",
+      "service": "0x31",
+      "setup": [],
+      "request": "31 01 FF 00",
+      "response": null,
+      "detail": "unresponsive, recovered after ~3.0s",
+      "first_case": 2549,
+      "hits": 1
+    }
+  ]
+}
